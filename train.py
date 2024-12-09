@@ -134,7 +134,7 @@ class DataPreprocessor:
             yaml.dump(data_yaml, file, default_flow_style=False)
 
 class ModelTrainer:
-    def __init__(self, model_name='yolov8n.pt'):
+    def __init__(self, model_name='yolo11x.pt'):
         self.model = YOLO(model_name)
     
     def train(self, epochs=100, imgsz=1024, batch=8, patience=5):
