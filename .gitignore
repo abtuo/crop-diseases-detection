@@ -1,0 +1,9 @@
+*.pt
+dataset/
+images/
+runs/
+
+manifest-8517f262e2ca61a7f7ac8fc1d32eb0be20241003-7123-1lvxb66.json
+*.csv
+
+*.ipynb
